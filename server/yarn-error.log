@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Local\node\corepack\yarn\1.22.19\bin\yarn.js add express cors jsonwebtoke bcrypt multer cookie parser dotenv
+
+PATH: 
+  C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Intel\Shared Files\fortran\bin\ia32;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\mongosh\mongosh-1.7.1-win32-x64\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files\Apache Software Foundation\Tomcat 10.1;C:\Program Files\Java\jdk-19\bin;C:\Users\hp\Downloads\apache-maven-3.9.0-bin\apache-maven-3.9.0\bin;C:\sqlite3;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\hp\.cargo\bin;C:\Users\hp\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\hp\AppData\Local\Programs\Python\Python310\;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hp\AppData\Roaming\npm;C:\Users\hp\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin;;C:\Users\hp\Downloads\bigdata\spark3\bin;C:\Users\hp\Downloads\bigdata\spark3\bin;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/jsonwebtoke: Not found
+      at params.callback [as _callback] (C:\Users\hp\AppData\Local\node\corepack\yarn\1.22.19\lib\cli.js:66145:18)
+      at self.callback (C:\Users\hp\AppData\Local\node\corepack\yarn\1.22.19\lib\cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (C:\Users\hp\AppData\Local\node\corepack\yarn\1.22.19\lib\cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (C:\Users\hp\AppData\Local\node\corepack\yarn\1.22.19\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "workwise",
+    "version": "1.0.0",
+    "description": "Giggs is a dynamic and innovative freelance marketplace that connects talented professionals with exciting freelance opportunities. Our platform serves as a hub where freelancers from diverse backgrounds can showcase their skills, collaborate with clients, and achieve their career goals.",
+    "main": "index.js",
+    "type":"module",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,13 @@
+{
+  "name": "workwise",
+  "version": "1.0.0",
+  "description": "Giggs is a dynamic and innovative freelance marketplace that connects talented professionals with exciting freelance opportunities. Our platform serves as a hub where freelancers from diverse backgrounds can showcase their skills, collaborate with clients, and achieve their career goals.",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
