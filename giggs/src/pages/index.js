@@ -1,6 +1,6 @@
 import React from 'react';
 
 function Index(){
-  return <div>HelloW Wprld</div>;
+  return <div>Hello World</div>;
 }
 export default Index;
