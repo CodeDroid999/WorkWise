@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5"
+    "@prisma/client": "^5.0.0",
+    "cors": "^2.8.5",
+    "prisma": "^5.0.0"
   }
 }
