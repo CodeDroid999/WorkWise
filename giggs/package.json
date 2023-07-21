@@ -10,9 +10,12 @@
   },
   "dependencies": {
     "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "context": "^3.0.7",
     "next": "13.4.10",
     "postcss": "8.4.26",
     "react": "18.2.0",
+    "react-cookie": "^4.1.1",
     "react-dom": "18.2.0",
     "react-refresh": "^0.14.0",
     "tailwindcss": "3.3.3"
