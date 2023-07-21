@@ -1,7 +1,14 @@
-import React from 'react';
+// ./src/pages/index.js
 
-function Index(){
-  return <div className="text-xl text-red-600">Hello Wolrd</div>;
+import React from 'react';
+import FiverrLogo from '../components/FiverrLogo';
+
+function Index() {
+  return (
+    <div>
+      <FiverrLogo />
+    </div>
+  );
 };
 
 export default Index;
