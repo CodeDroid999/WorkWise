@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { loadStripe } from "@stripe/stripe-js";
 import axios from "axios";
-import { CREATE_ORDER } from "../utils/constants";
+import { CREATE_ORDER } from "../components/utils/constants";
 import { Elements } from "@stripe/react-stripe-js";
 import CheckoutForm from "../components/CheckoutForm";
 import { useRouter } from "next/router";

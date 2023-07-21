@@ -1,4 +1,4 @@
-import { HOST, IMAGES_URL } from "../../utils/constants";
+import { HOST, IMAGES_URL } from "../utils/constants";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import React from "react";

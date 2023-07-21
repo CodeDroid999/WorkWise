@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FaRegPaperPlane } from "react-icons/fa";
 import { BsCheckAll } from "react-icons/bs";
 import axios from "axios";
-import { ADD_MESSAGE, GET_MESSAGES } from "../../utils/constants";
+import { ADD_MESSAGE, GET_MESSAGES } from "../utils/constants";
 import { useRouter } from "next/router";
 import { useStateProvider } from "../../context/StateContext";
 function MessageContainer() {

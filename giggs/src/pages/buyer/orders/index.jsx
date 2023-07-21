@@ -1,5 +1,5 @@
 import { useStateProvider } from "../../../context/StateContext";
-import { GET_BUYER_ORDERS_ROUTE } from "../../../utils/constants";
+import { GET_BUYER_ORDERS_ROUTE } from "../../../components/utils/constants";
 import axios from "axios";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";

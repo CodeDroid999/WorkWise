@@ -8,7 +8,7 @@ import {
   FiTwitter,
 } from "react-icons/fi";
 import FiverrLogo from "./FiverrLogo";
-import { categories } from "../utils/categories";
+import { categories } from "./utils/categories";
 
 function Footer() {
   const socialLinks = [

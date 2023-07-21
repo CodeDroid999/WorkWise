@@ -6,7 +6,7 @@ import axios from "axios";
 import {
   CHECK_USER_ORDERED_GIG_ROUTE,
   GET_GIG_DATA,
-} from "../../utils/constants";
+} from "../../components/utils/constants";
 import { useStateProvider } from "../../context/StateContext";
 import { reducerCases } from "../../context/constants";
 

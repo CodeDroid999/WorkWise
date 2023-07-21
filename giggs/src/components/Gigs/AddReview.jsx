@@ -1,6 +1,6 @@
 import { useStateProvider } from "../../context/StateContext";
 import { reducerCases } from "../../context/constants";
-import { ADD_REVIEW } from "../../utils/constants";
+import { ADD_REVIEW } from "../utils/constants";
 import axios from "axios";
 import { useRouter } from "next/router";
 import React, { useState } from "react";

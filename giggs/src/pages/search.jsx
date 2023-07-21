@@ -1,5 +1,5 @@
 import SearchGridItem from "../components/Search/SearchGridItem";
-import { SEARCH_GIGS_ROUTE } from "../utils/constants";
+import { SEARCH_GIGS_ROUTE } from "../components/utils/constants";
 import axios from "axios";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";

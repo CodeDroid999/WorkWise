@@ -5,7 +5,7 @@ import {
   IMAGES_URL,
   SET_USER_IMAGE,
   SET_USER_INFO,
-} from "../utils/constants";
+} from "../components/utils/constants";
 import axios from "axios";
 import Image from "next/image";
 import { useRouter } from "next/router";

@@ -1,5 +1,5 @@
 import { useStateProvider } from "../../context/StateContext";
-import { GET_UNREAD_MESSAGES, MARK_AS_READ_ROUTE } from "../../utils/constants";
+import { GET_UNREAD_MESSAGES, MARK_AS_READ_ROUTE } from "../../components/utils/constants";
 
 import axios from "axios";
 import Link from "next/link";

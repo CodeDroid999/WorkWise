@@ -1,4 +1,4 @@
-import { ORDER_SUCCESS_ROUTE } from "../utils/constants";
+import { ORDER_SUCCESS_ROUTE } from "../components/utils/constants";
 import axios from "axios";
 import { useRouter } from "next/router";
 import React, { useEffect } from "react";

@@ -1,4 +1,4 @@
-import { GET_USER_GIGS_ROUTE } from "../../../utils/constants";
+import { GET_USER_GIGS_ROUTE } from "../../../components/utils/constants";
 import axios from "axios";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";

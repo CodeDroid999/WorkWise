@@ -1,6 +1,6 @@
 import ImageUpload from "../../../components/ImageUpload";
-import { categories } from "../../../utils/categories";
-import { EDIT_GIG_DATA, GET_GIG_DATA } from "../../../utils/constants";
+import { categories } from "../../../components/utils/categories";
+import { EDIT_GIG_DATA, GET_GIG_DATA } from "../../../components/utils/constants";
 import axios from "axios";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";

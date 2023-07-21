@@ -1,5 +1,5 @@
 import { useStateProvider } from "../../context/StateContext";
-import { GET_SELLER_DASHBOARD_DATA, HOST } from "../../utils/constants";
+import { GET_SELLER_DASHBOARD_DATA, HOST } from "../../components/utils/constants";
 import axios from "axios";
 import Image from "next/image";
 import { useRouter } from "next/router";

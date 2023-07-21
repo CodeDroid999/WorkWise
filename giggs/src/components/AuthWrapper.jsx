@@ -1,5 +1,5 @@
 import { useCookies } from "react-cookie";
-import { LOGIN_ROUTE, SIGNUP_ROUTE } from "../utils/constants";
+import { LOGIN_ROUTE, SIGNUP_ROUTE } from "./utils/constants";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { FcGoogle } from "react-icons/fc";
