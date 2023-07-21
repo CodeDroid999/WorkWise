@@ -6,7 +6,7 @@ import FiverrLogo from '../components/FiverrLogo';
 function Index() {
   return (
     <div>
-      <FiverrLogo />
+      Hello
     </div>
   );
 };
